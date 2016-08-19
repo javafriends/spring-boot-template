@@ -26,7 +26,7 @@ public class ApplicationConfiguration {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setUsername("root");
 		dataSource.setPassword("google");
-		dataSource.setUrl("jdbc:mysql://localhost:3306/sgp?useUnicode=yes&amp;characterEncoding=UTF-8");
+		dataSource.setUrl("jdbc:mysql://localhost:3306/sga?useUnicode=yes&amp;characterEncoding=UTF-8");
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 
 		return dataSource;
